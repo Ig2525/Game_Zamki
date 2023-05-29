@@ -348,6 +348,9 @@
 "Assets/Scripts/Cloud.cs"
 "Assets/Scripts/CloudCrafter.cs"
 "Assets/Scripts/FollowCam.cs"
+"Assets/Scripts/Goal.cs"
+"Assets/Scripts/ProjectileLine.cs"
+"Assets/Scripts/RigidbodySleep.cs"
 "Assets/Scripts/Slingshot.cs"
 -langversion:9.0
 
