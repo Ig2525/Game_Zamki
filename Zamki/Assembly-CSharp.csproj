@@ -58,11 +58,13 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Slingshot.cs" />
     <Compile Include="Assets\Scripts\CloudCrafter.cs" />
-    <Compile Include="Assets\Scripts\FollowCam.cs" />
-    <Compile Include="Assets\Scripts\Cloud.cs" />
-    <Compile Include="Assets\Scripts\RigidbodySleep.cs" />
-    <Compile Include="Assets\Scripts\ProjectileLine.cs" />
     <Compile Include="Assets\Scripts\Goal.cs" />
+    <Compile Include="Assets\Scripts\FollowCam.cs" />
+    <Compile Include="Assets\Scripts\ProjectileLine.cs" />
+    <Compile Include="Assets\Scripts\RigidbodySleep.cs" />
+    <Compile Include="Assets\Scripts\Cloud.cs" />
+    <Compile Include="Assets\Scripts\MissionDemolition.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
