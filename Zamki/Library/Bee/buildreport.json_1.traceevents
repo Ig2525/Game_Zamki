@@ -1,353 +1,339 @@
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 0, "tid": 1, "ts": 1685390018949086, "dur": 738684, "ph": "X", "name": "Build Player", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1685390018949130, "dur": 10652, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1685390018959789, "dur": 86381, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1685390019046177, "dur": 484069, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1685390019530253, "dur": 146338, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1685390019676597, "dur": 11166, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1685390019688877, "dur": 62, "ph": "X", "name": "", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685629908170416, "dur": 145629, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685629908170494, "dur": 17500, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685629908187999, "dur": 121515, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685629908309520, "dur": 6524, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685629908316895, "dur": 50, "ph": "X", "name": "", "args": {} },
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1685390019013834, "dur":2767, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685390019016622, "dur":222, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1685390019016884, "dur":35, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1685390019016920, "dur":447, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1685390019017444, "dur":1141, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685390019018586, "dur":4, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685390019030509, "dur":240, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685390019030750, "dur":58, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685390019030808, "dur":12, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685390019030820, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685390019030832, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685390019030837, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685390019030851, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685390019030855, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685390019030867, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685390019030868, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685390019030917, "dur":2993, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1685390019018759, "dur":2, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685390019018762, "dur":11701, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019018768, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019018769, "dur":11700, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685390019018824, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685390019018825, "dur":11859, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685390019018809, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685390019018809, "dur":11706, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685390019036180, "dur":382, "ph":"X", "name": "ProfilerWriteOutput" }
-,{ "pid": 0, "tid": 1, "ts": 1685390019689084, "dur": 562, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
-{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
-{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
-{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 35942, "tid": 1, "ts": 1685390019275402, "dur": 222937, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1685390019277201, "dur": 88026, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1685390019466658, "dur": 10993, "ph": "X", "name": "OutputData.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1685390019477656, "dur": 20668, "ph": "X", "name": "Backend.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1685390019479001, "dur": 17633, "ph": "X", "name": "JsonToString", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1685390019508179, "dur": 2380, "ph": "X", "name": "", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1685390019506448, "dur": 4166, "ph": "X", "name": "Write chrome-trace events", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1685390019689763, "dur": 602, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
-{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1685390019607112, "dur":3979, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685390019611110, "dur":3593, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1685390019614730, "dur":37, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1685390019614767, "dur":564, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1685390019615403, "dur":1244, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685390019616648, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685390019645085, "dur":167, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685390019645252, "dur":110, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685390019645362, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685390019645368, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685390019645383, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685390019645388, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685390019645399, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685390019645404, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685390019645414, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685390019645433, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685390019645487, "dur":3047, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1685390019616790, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685390019616791, "dur":13033, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685390019629840, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1685390019629847, "dur":662, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685390019630514, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1685390019630517, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685390019630547, "dur":1056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":1, "ts":1685390019631603, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685390019631639, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685390019631675, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685390019631707, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685390019631739, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685390019631766, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685390019631801, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685390019631836, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685390019631869, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685390019631897, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685390019631926, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685390019631953, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685390019631983, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685390019632011, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685390019632042, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685390019632066, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685390019632094, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685390019632119, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685390019632148, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685390019632174, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685390019632209, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685390019632241, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685390019632274, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685390019632304, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685390019632336, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685390019632361, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685390019632390, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685390019632416, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685390019632445, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685390019632470, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685390019632501, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685390019632527, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685390019632567, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685390019632732, "dur":637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685390019633370, "dur":4438, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685390019637811, "dur":384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":1, "ts":1685390019638196, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685390019638259, "dur":412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":1, "ts":1685390019638671, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685390019638751, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/level0" }}
-,{ "pid":12345, "tid":1, "ts":1685390019638798, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685390019638825, "dur":6173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/level0" }}
-,{ "pid":12345, "tid":1, "ts":1685390019645027, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":1, "ts":1685390019645031, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019616855, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019616856, "dur":12988, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019629853, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1685390019630072, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019630118, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1685390019630244, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019630278, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1685390019630406, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019630440, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1685390019630565, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019630601, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1685390019630738, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019630773, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685390019630924, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019630954, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":2, "ts":1685390019631309, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019631364, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685390019631511, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019631544, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685390019631582, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019631621, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685390019631653, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019631690, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685390019631721, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019631749, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685390019631786, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019631816, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685390019631845, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019631874, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685390019631906, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019631940, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685390019631977, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019632006, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685390019632042, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019632072, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685390019632105, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019632135, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685390019632170, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019632201, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685390019632237, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019632267, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685390019632300, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019632332, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685390019632368, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019632397, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685390019632429, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019632457, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685390019632490, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019632521, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685390019632553, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019632583, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685390019632745, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019632789, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685390019632832, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019632866, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685390019632906, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019632940, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685390019632979, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019633007, "dur":729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685390019633737, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019633767, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685390019633793, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019633815, "dur":500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685390019634315, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019634347, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685390019634377, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019634401, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685390019634428, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019634451, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685390019634476, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019634499, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685390019634524, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019634545, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685390019634569, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019634591, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685390019634616, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019634640, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685390019634666, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019634691, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685390019634717, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019634747, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685390019634773, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019634796, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685390019634821, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019634844, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685390019634868, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019634892, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685390019634921, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019634946, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685390019634969, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019634992, "dur":368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685390019635360, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019635386, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1685390019635418, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019636471, "dur":7331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1685390019643834, "dur":351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1685390019644185, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685390019644213, "dur":867, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685390019616903, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685390019616904, "dur":12953, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685390019629858, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1685390019630040, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685390019630072, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1685390019630194, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685390019630220, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1685390019630346, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685390019630376, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1685390019630500, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685390019630534, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1685390019630685, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685390019630719, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":3, "ts":1685390019630859, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685390019630889, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685390019631183, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685390019631215, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki.exe" }}
-,{ "pid":12345, "tid":3, "ts":1685390019631293, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685390019631321, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":3, "ts":1685390019631535, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685390019631578, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685390019631618, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685390019631648, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685390019631685, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685390019631718, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685390019631753, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685390019631784, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685390019631827, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685390019631854, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685390019631886, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685390019631913, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685390019631944, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685390019631972, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685390019631998, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685390019632023, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685390019632052, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685390019632080, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685390019632110, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685390019632137, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685390019632171, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685390019632196, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685390019632231, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685390019632258, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685390019632291, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685390019632321, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685390019632352, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685390019632379, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685390019632408, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685390019632435, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685390019632463, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685390019632490, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685390019632520, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685390019632544, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685390019632573, "dur":165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685390019632741, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685390019632791, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685390019632825, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685390019632858, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685390019632890, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685390019632926, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685390019632957, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685390019632989, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685390019633014, "dur":1158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685390019634172, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685390019634204, "dur":1677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685390019635881, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685390019635924, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":3, "ts":1685390019635979, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685390019636009, "dur":4667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":3, "ts":1685390019641195, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":3, "ts":1685390019641244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685390019641259, "dur":3315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":3, "ts":1685390019644607, "dur":441, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685390019616965, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685390019616966, "dur":12868, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685390019629841, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":4, "ts":1685390019630018, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685390019630054, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1685390019630178, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685390019630205, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1685390019630337, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685390019630368, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1685390019630502, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685390019630535, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1685390019630683, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685390019630718, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":4, "ts":1685390019630883, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685390019630920, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685390019631311, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685390019631400, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685390019631506, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685390019631537, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685390019631573, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685390019631611, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685390019631649, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685390019631681, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685390019631715, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685390019631748, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685390019631785, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685390019631821, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685390019631850, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685390019631876, "dur":908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685390019632784, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685390019632818, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685390019632854, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685390019632889, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685390019632932, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685390019632961, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685390019632995, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685390019633021, "dur":1557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685390019634578, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685390019634609, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685390019634636, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685390019634660, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685390019634689, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685390019634711, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685390019634739, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685390019634762, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685390019634790, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685390019634812, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685390019634837, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685390019634860, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685390019634885, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685390019634906, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685390019634931, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685390019634954, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685390019634979, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685390019635002, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":4, "ts":1685390019635052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685390019635902, "dur":5188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":4, "ts":1685390019641135, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":4, "ts":1685390019641191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685390019641210, "dur":3542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/Zamki_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":4, "ts":1685390019644782, "dur":267, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685390019650855, "dur":2219, "ph":"X", "name": "ProfilerWriteOutput" }
-,{ "pid": 0, "tid": 1, "ts": 1685390019690472, "dur": 1469, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1685390019688833, "dur": 3155, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+,{ "pid":12345, "tid":0, "ts":1685629908239059, "dur":2749, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685629908241825, "dur":216, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1685629908242078, "dur":37, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1685629908242115, "dur":480, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1685629908242676, "dur":1219, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685629908243895, "dur":3, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685629908280967, "dur":294, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685629908281262, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685629908281286, "dur":10, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685629908281296, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685629908281306, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685629908281310, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685629908281323, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685629908281327, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685629908281337, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685629908281368, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685629908281423, "dur":2872, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1685629908243533, "dur":372, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685629908243909, "dur":12609, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685629908256544, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1685629908256550, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685629908256597, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1685629908256601, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685629908256624, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1685629908256940, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685629908256969, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1685629908257193, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685629908257227, "dur":6376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1685629908263603, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685629908263628, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1685629908263660, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685629908265500, "dur":5047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1685629908270587, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1685629908270628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685629908270646, "dur":2640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1685629908273321, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/level2.resS" }}
+,{ "pid":12345, "tid":1, "ts":1685629908273367, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685629908273385, "dur":2210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/level2.resS" }}
+,{ "pid":12345, "tid":1, "ts":1685629908275618, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1685629908275649, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685629908275659, "dur":2062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1685629908277750, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1685629908277780, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685629908277790, "dur":1499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1685629908279315, "dur":354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1685629908279669, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685629908279701, "dur":1235, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908243558, "dur":360, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908243920, "dur":13614, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908257535, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1685629908257779, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908257807, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1685629908257990, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908258016, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1685629908258197, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908258223, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1685629908258402, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908258426, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1685629908258603, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908258631, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1685629908258809, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908258839, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685629908259029, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908259057, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1685629908259263, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908259290, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685629908259317, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908259340, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685629908259365, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908259388, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685629908259411, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908259433, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685629908259509, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908259533, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685629908259562, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908259599, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685629908259625, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908259648, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685629908259674, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908259696, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685629908259722, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908259745, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685629908259773, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908259795, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685629908259819, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908259842, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685629908259867, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908259892, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685629908259917, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908259939, "dur":753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685629908260692, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908260719, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685629908260747, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908260769, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685629908260802, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908260826, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685629908260855, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908260877, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685629908260901, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908260924, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685629908260948, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908260969, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685629908260994, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908261018, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685629908261042, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908261063, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685629908261087, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908261109, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685629908261133, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908261154, "dur":497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685629908261652, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908261675, "dur":1385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685629908263061, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908263107, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685629908263141, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908263169, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685629908263198, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908263226, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685629908263255, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908263280, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685629908263309, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908263334, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685629908263370, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908263399, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685629908263428, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908263456, "dur":497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685629908263954, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908263985, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685629908264028, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908266328, "dur":4516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685629908270878, "dur":498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1685629908271376, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908271410, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1685629908271496, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908271506, "dur":2645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1685629908274178, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1685629908274209, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908274220, "dur":2101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1685629908276355, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685629908276455, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908276474, "dur":1904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685629908278402, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1685629908278451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685629908278459, "dur":2355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1685629908280843, "dur":92, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908243588, "dur":342, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908243930, "dur":13584, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908257515, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1685629908257724, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908257751, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1685629908257928, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908257953, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1685629908258131, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908258161, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1685629908258361, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908258387, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1685629908258572, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908258600, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1685629908258782, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908258808, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908258994, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908259019, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908259194, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908259220, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki.exe" }}
+,{ "pid":12345, "tid":3, "ts":1685629908259260, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908259282, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1685629908259455, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908259483, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908259510, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908259538, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908259565, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908259586, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908259610, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908259636, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908259663, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908259686, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908259711, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908259734, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908259764, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908259786, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908259814, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908259836, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908259859, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908259883, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908259908, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908259930, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908259955, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908259977, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260000, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260023, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260047, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260069, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260092, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260113, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260140, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260160, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260183, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260204, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260230, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260250, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260273, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260295, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260321, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260341, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260366, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260386, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260409, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260429, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260452, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260472, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260494, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260514, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260537, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260558, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260581, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260602, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260627, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260649, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260675, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260696, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260722, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260750, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260775, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260797, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260821, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260842, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260868, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260889, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260914, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260935, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260960, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908260981, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908261006, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908261027, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908261051, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908261072, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908261096, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908261118, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908261142, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908261276, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908261305, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908261325, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908261352, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908261376, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908261400, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908261422, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908261448, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908261469, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908261493, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908261514, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908261538, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908261560, "dur":558, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908262119, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908262147, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908262174, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908262195, "dur":514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908262709, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908262734, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908262759, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908262782, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908262808, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908262829, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908262853, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908262874, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908262898, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908262918, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908262941, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908262961, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908262985, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908263006, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908263028, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908263049, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908263074, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908263099, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908263125, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908263152, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908263182, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908263209, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908263238, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908263264, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908263295, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908263321, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908263349, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908263378, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908263408, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908263435, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685629908263464, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908263491, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1685629908263545, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685629908264380, "dur":15355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1685629908279765, "dur":1169, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685629908243679, "dur":271, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685629908243950, "dur":12841, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685629908256794, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1685629908257128, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685629908257162, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1685629908257419, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685629908257450, "dur":3886, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1685629908261336, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685629908261362, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685629908261407, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685629908261429, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685629908261455, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685629908261476, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685629908261502, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685629908261523, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685629908261547, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685629908261569, "dur":1041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685629908262610, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685629908262636, "dur":881, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685629908263517, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685629908263550, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1685629908263585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685629908264647, "dur":6175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1685629908270862, "dur":497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1685629908271360, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685629908271397, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1685629908271438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685629908271500, "dur":4047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1685629908275576, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1685629908275607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685629908275617, "dur":2576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1685629908278223, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1685629908278260, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685629908278271, "dur":2603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"K:/A_Step/Lesson_CI/5 Semestr/115 (27-05-2023) Unity/Zamki/Build_Zamki/Zamki_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1685629908280905, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1685629908280907, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685629908287207, "dur":2004, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1685629908317076, "dur": 1643, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685629908316850, "dur": 1920, "ph": "X", "name": "Write chrome-trace events", "args": {} },

@@ -1,6 +1,8 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 public enum GameMode
 { 
     idle,
@@ -55,7 +57,7 @@ public class MissionDemolition : MonoBehaviour
         ProjectileLine.S.Clear();
         // Сбросить цель
         Goal.goalMet = false;
-        
+
         UpdateGUI();
 
         mode = GameMode.playing;
@@ -83,9 +85,10 @@ void NextLevel()
 {
     level++;
     if (level == levelMax)
-    {
-        level = 0;
-    }
+    {            
+            //  level = 0;
+            SceneManager.LoadScene("GameOverScene"); // Закінчити гру, якщо пройдено всі рівні
+        }
     StartLevel();
 }
 public void SwitchView(string eView = "")
